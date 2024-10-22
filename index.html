@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Amit Dubey</span></h1>
+            <p>Web Developer | Designer | Creative Thinker</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Amit Dubey, a passionate Web Developer with a love for creating interactive and user-friendly websites. I specialize in front-end development and have a knack for bringing creative ideas to life.I specialize in full-stack development using the MERN stack (MongoDB, Express.js, React.js, Node.js). I also have experience with Java, SQL, and cloud deployment.I hold a Bachelor’s degree in Computer Science and have completed certifications in Full-Stack Development and Cloud Computing.When I’m not coding, I enjoy photography, hiking, and exploring new technologies. I’m also an active participant in local coding meetups and hackathons.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="https://justpaste.it/img/dc31eb8a8d5ab5f42db9038b1310aa34.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Parking management System</h3>
+                    <p>The "Parking Management System" is a software application designed to efficiently manage parking spaces in a facility. Developed using Java for the backend logic and SQL for database management, the system allows users to register vehicles, assign parking spots, and track the availability of parking spaces in real-time. It includes features like user authentication, parking slot reservation, and detailed reporting. This system helps streamline the parking process, reduce manual errors, and optimize the usage of parking resources in various environments such as malls, offices, or residential complexes.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/04/alime-free-freelancer-website-templates.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>skillBridge - freelancing website</h3>
+                    <p>The freelancing website developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js) is a platform that connects freelancers with clients seeking various services. The site allows freelancers to create profiles, showcase their skills, and bid on projects posted by clients. Clients can post job requirements, review freelancer profiles, and hire the best candidates for their projects. With a modern user interface built in React, a robust backend using Node.js and Express, and efficient data management with MongoDB, this platform ensures a seamless and interactive experience for both freelancers and clients</p>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Cool Portfolio</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
